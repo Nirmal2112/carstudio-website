@@ -1,0 +1,606 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: georgia;
+  
+   
+
+
+}
+
+/*     navbar    */
+
+.site {
+    width: 100%;
+    height: 100vh;
+    background: #0f8a9d;
+    background: linear-gradient(57deg, #00C6A7, #1E4D92);
+
+}
+
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #00C6A7;
+    display: flex;
+    color:white;
+    background: linear-gradient(57deg, #00C6A7, #1E4D92);
+
+}
+
+.logo {
+    width: 50%;
+    height: 100px;
+}
+
+.logo h1 {
+    line-height: 100px;
+    padding-left: 50px;
+}
+
+.menu {
+    width: 50%;
+    height: 100px;
+}
+
+.menu ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* ........... */
+/* 1st page */
+section {
+    display: flex;
+}
+
+.l {
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.l img {
+    width: 600px;
+    height: 500px;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.r {
+    width: 55%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    padding: 40px;
+}
+
+.r h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.r p {
+    font-size: 1.1rem;
+    padding: 30px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.r button {
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #00C6A7, #1E4D92);
+    border-radius: 4px 4px 4px 4px;
+    padding: 20px 35px;
+    cursor: pointer;
+}
+
+
+
+.r button:hover {
+    background: linear-gradient(57deg, #1E4D92, #00C6A7);
+
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.l img {
+    opacity: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+.logo h1 {
+    font-size: bold;
+    font-weight: bold;
+    font-family: georgia;
+}
+/* ......... */
+
+/* second  page */
+#t {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+.welcome p {
+    color: rgba(0, 0, 0, 0.938);
+    font-size: 20px;
+    line-height: 30px;
+    width: 70%;
+    text-align: center;
+    margin-left: 16%;
+
+    padding: 50px;
+}
+
+#first {
+    margin-left: 21%;
+    width: 60%;
+
+}
+
+p {
+    line-height: 30px;
+}
+
+.welcome {
+    background: linear-gradient(57deg, #00C6A7, #135dbe);
+}
+
+#t {
+    padding-top: 7%;
+
+}
+
+/* 3rd page */
+.container {
+    width: 70%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 30px;
+    margin-top: 0;
+    /* */
+
+}
+
+.box {
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: px;
+  
+
+}
+
+.container .cont{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container span{
+    padding: 40px;
+    color: red;
+    font-weight: bold;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container button{
+    padding: 20px;
+    background-color: rgb(255, 68, 0);
+    font-weight: bold;
+}
+.container h4{
+    font-size: 30px;
+}
+
+.box img {
+    margin-top: 40px;
+}
+
+.box:hover {
+    background-color: rgba(235, 228, 228, 0.795);
+    transform: scale(1.06);
+    transition: 0.6s;
+}
+
+#choose {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px white;
+
+}
+
+.container1 {
+    background: linear-gradient(57deg, #00C6A7, #135dbe);
+    width: 100%;
+    padding-top: 7%;
+    margin-bottom: 40px;
+    padding-bottom: 1px;
+}
+
+     /* fourth page */
+
+.containernext{
+    width: 70%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 30px;
+    margin-top: 0;
+}
+.containernext .img{
+    border: 1px solid #000000;
+    margin: 20px;
+    padding-top: 40px;
+    margin-top: 5%;
+}
+.containernext .disc{
+    text-align: center;
+}
+.containernext span{
+    padding: 40px;
+    color:red;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.containernext button{
+    padding: 20px;
+    background-color: rgb(255, 68, 0);
+    font-weight: bold;
+}
+.containernext{
+    background: linear-gradient(57deg, #00C6A7, #135dbe);
+    width: 100%;
+    margin-top: 0;
+}
+.img:hover {
+    background-color: rgba(235, 228, 228, 0.795);
+    transform: scale(1.06);
+    transition: 0.6s;
+}
+.containernext h4{
+    font-size: 30px;
+}
+      /* carousel */
+
+.banner img{
+    width:94% ;
+margin-left: 4%;
+margin-top: 2%;
+margin-bottom:2% ;
+border-radius: 20px;
+
+}
+.banner h2{
+    position: absolute;
+    top: 280%;
+    right: 40%;
+    color:black;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow:  2px 2px 15px white;
+}
+.banner h1{
+    position: absolute;
+    top: 295%;
+    right:10%;
+    color: black;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-shadow:  2px 2px 15px white;
+}
+.banner img{
+    opacity: 50%;
+}
+
+.banner #btn{
+position: absolute;
+top: 320%;
+right: 45%;
+
+padding: 20px;
+background-color: rgb(255, 68, 0);
+font-size: 20px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.icons img{
+ width: 30px;
+ margin-left: 3%;
+top: 445%;
+ position: absolute;
+}
+.menu ul li a:hover{
+
+font-size: 20px;
+text-shadow: 1px 1px 0px rgb(224, 9, 224);
+transition: 1s;
+}
+.containernew img{
+    border-radius: 30px;
+width: 90%;
+justify-content: center;
+align-items: center;
+margin-left: 6%;
+opacity:70%;
+}
+.containernew #firstcar h2{
+    color: red;
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px white;
+}
+.containernew #firstcar h1{
+    color: red;
+    position: absolute;
+    top: 43%;
+    left: 21%;
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+}
+.containernew #second h1{
+    color:#fff;
+    position: absolute;
+    top: 43%;
+    left: 17%;
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+
+}
+.containernew #third h2{
+    color: red;
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+}
+.containernew #third h1{
+    color:red;
+    position: absolute;
+    top: 43%;
+    left: 24%;
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+}
+.bi {
+    padding: 10px;
+    font-size: 25px;
+}
+/* our services */
+#services2{
+margin-left: -10%;
+width: 40%;   
+opacity: 80%;   
+}
+#services{
+    color: white;
+    font-size: 40px;
+}
+.services{
+    background: linear-gradient(57deg, #00C6A7, #135dbe);
+  padding-bottom: 1px;
+margin-bottom: 20px;
+}
+.services h1{
+    text-align: center;
+    font-weight: bold;
+    padding-top:3%;
+}
+.services #p{
+    padding-left: 5%;
+    line-height: 36px;
+    font-size: 22px;
+}
+
+    /* our serrvices */
+ 
+
+
+  
+   .cont{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+.container h5{
+    line-height: 35px;
+    margin-left: -10%;
+}
+.secondimg{
+   margin-right: -10%;
+   width: 50%;
+   opacity: 90%;
+padding-left: 10px;
+}
+/* aboutus */
+.aboutus{
+    width: 80%;
+  
+    justify-content: center;
+    align-items: center;
+    margin-left:10%;
+}
+.aboutus h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.aboutus .col{
+    border: 1px solid black;
+    background-color: rgb(6, 6, 100);
+    margin: 10px;
+    padding: 30px;
+}
+.col label{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    margin-left:16%;
+    font-size: 25px;
+}
+.col span{
+    background-color: rgb(255, 68, 0);
+    padding: 25px 25px 25px 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.col i{
+    font-weight: bold;
+    font-size: 40px;
+}
+.about .container-fluid{
+border: 1px solid black ;
+width: 80%;
+margin-left: 10%;
+display: flex;
+flex-direction: row;
+margin-top:4% ;
+padding-top: 40px;
+padding-bottom:40px;
+padding-left: 30px;
+padding-right: 30px;
+margin-bottom: 5%;
+}
+
+.about .container-fluid p{
+    line-height: 40px;
+    font-size: 22px;
+    padding-left: 20px;
+}
+.about .container-fluid img{
+    width: 60%;
+    opacity: 90%;
+}
+
+.lastpage{
+   
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-left: 30px;
+    width: 98%;
+    margin-left: 2%;
+    padding-bottom: 30px;
+    line-height: 40px;
+    background: linear-gradient(5deg, #315ebe, #0f0641 );
+ 
+    
+}
+.lastpage h2{
+    color: rgb(255, 68, 0);
+    font-weight: bold;
+}
+#last{
+    background: linear-gradient(5deg, #315ebe, #0f0641 );
+ width: 98%;
+ margin-left: 2%;
+ margin-bottom: 5%;
+ padding-top: 25px;
+ padding-bottom: 25px;
+
+}
+#last{
+    text-align: center;
+}
+#last span{
+    color: rgb(255, 68, 0);
+}
+#last h4{
+    color: #3e69c7;
+}
+.lastpage a li{
+    color: white;
+    text-transform: uppercase;
+    list-style: none;
+}
+.lastpage a li:hover{
+   font-size: 20px;
+   text-shadow: 1px 1px 2px white;
+   color: white;
+}
+#firstcar button{
+    background: linear-gradient(57deg, #00C6A7, #135dbe);
+ 
+position: absolute;
+top: 70%;
+left: 47%;
+padding: 30px;
+text-transform: uppercase;
+font-weight: bold;
+}
+#third button{
+    background: linear-gradient(57deg, #00C6A7, #135dbe);
+ 
+position: absolute;
+top: 70%;
+left: 47%;
+padding: 30px;
+text-transform: uppercase;
+font-weight: bold;
+}
+.lastpage a i{
+    padding: 20px;
+    margin-top: 30px;
+}
+#firstpara{
+    font-size: 20px;
+}
+#secondpara{
+    font-size: 22px;
+}
+#thirdpara{
+    font-size: 22px;
+}
+#fifthpara{
+    font-size: 22px;
+}
